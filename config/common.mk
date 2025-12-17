@@ -326,7 +326,8 @@ PRODUCT_PACKAGES += \
     LineageFrameworksOverlay \
     NetworkStackOverlay \
     NfcOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    SettingsLightning
 
 # Translations
 CUSTOM_LOCALES += \
