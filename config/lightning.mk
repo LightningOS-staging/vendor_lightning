@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
    AxSandbox \
    BatteryStatsViewer \
    GameSpace \
+   LightningBrowser \
    Updater \
    OmniJaws \
    OmniStyle
