@@ -20,10 +20,13 @@ PRODUCT_PACKAGES += \
    AxSandbox \
    BatteryStatsViewer \
    GameSpace \
-   LightningBrowser \
    Updater \
    OmniJaws \
    OmniStyle
+
+ifneq ($(WITH_GMS),true)
+PRODUCT_PACKAGES += LightningBrowser
+endif
 
 # LMO packages
 PRODUCT_PACKAGES += \
